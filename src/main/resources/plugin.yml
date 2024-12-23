@@ -1,0 +1,23 @@
+name: ServerConnector
+version: ${project.version}
+main: com.meteor.connector.Main
+description: 'This plugin makes it easier to join other BungeeCord servers.'
+api-version: 1.13
+author: Meteor23333
+commands:
+  connector:
+    aliases: sc
+    description: 'Plugin main cmd.'
+permissions:
+  connector.*:
+    default: op
+    children:
+      connector.join: true
+      connector.random-join: true
+      connector.open-gui: true
+  connector.join:
+    default: false
+  connector.random-join:
+    default: true
+  connector.open-gui:
+    default: true

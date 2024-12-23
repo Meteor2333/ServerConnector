@@ -1,0 +1,53 @@
+waiting-motd: 'Waiting...' # If you don't need this feature, please delete this line.
+groups:
+  Lobby:
+    lobby#1:
+      name: 'Lobby#1'
+      address: '127.0.0.1:25561'
+    lobby#2:
+      name: 'Lobby#2'
+      address: '127.0.0.1:25562'
+  BedWars:
+    bedwars#1:
+      name: 'BedWars#1'
+      address: '127.0.0.1:25563'
+    bedwars#2:
+      name: 'BedWars#2'
+      address: '127.0.0.1:25564'
+# Group name:
+#   Server name in BungeeCord:
+#     name: 'Server display name'
+#     address: 'Server address'
+message:
+  random-join: '&b&lRandomly join'
+  no-available-servers: "There are no available servers!"
+  found-server-lore:
+    - '%motd%'
+    - '&6Players&f: &a%players%&f/&c%maxPlayers%'
+    - ''
+    - '&eClick to join!'
+  not-found-server-lore:
+    - '&cThe server is offline'
+    - ''
+    - '&cCannot join currently!'
+  occupied-server-lore:
+    - '&cThe server is occupied'
+    - ''
+    - '%motd%'
+    - '&6Players&f: &c%players%&f/&c%maxPlayers%'
+    - ''
+    - '&cCannot join currently!'
+  filled-server-lore:
+    - '&cThe server is full'
+    - ''
+    - '%motd%'
+    - '&6Players&f: &c%players%&f/&c%maxPlayers%'
+    - ''
+    - '&cCannot join currently!'
+  not-found-server-message: '&cThe server is offline, please try again later!'
+  occupied-server-message: '&cThe server is occupied, please try again later!.'
+  filled-server-message: '&cThe server is full, please try again later!'
+
+# Commands: /connector [Group name] -> Open the specified group selection menu.
+#           /connector join [Server name in BungeeCord] -> Join the specified server.
+#           /connector random_join [Group name] -> Randomly join a server from the specified server group.
