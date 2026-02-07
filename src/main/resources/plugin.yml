@@ -1,6 +1,6 @@
 name: ServerConnector
 version: ${project.version}
-main: com.meteor.connector.Main
+main: cc.meteormc.connector.Main
 description: 'This plugin makes it easier to join other BungeeCord servers.'
 api-version: 1.13
 author: Meteor23333
