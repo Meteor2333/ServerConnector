@@ -27,7 +27,7 @@
                     <relocations>
                         <relocation>
                             <pattern>com.cryptomorin.xseries</pattern>
-                            <shadedPattern>cc.meteormc.lib.xseries</shadedPattern>
+                            <shadedPattern>cc.meteormc.connector.lib.xseries</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
