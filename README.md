@@ -3,7 +3,7 @@
 > This is a Bukkit plugin that makes it easier to integrate with other BungeeCord servers
 
 <picture>
-    <img src="img/screenshot.png" alt="Screenshot">
+    <img src="img/screenshot.png" alt="Screenshot" width=500>
 </picture>
 
 ### Information:
